@@ -251,6 +251,13 @@ AGENT_CONFIG = {
         "install_url": None,  # IDE-based
         "requires_cli": False,
     },
+    "kimi": {
+        "name": "Kimi Code",
+        "folder": ".kimi/",
+        "commands_subdir": "commands",
+        "install_url": "https://code.kimi.com/",
+        "requires_cli": True,
+    },
     "generic": {
         "name": "Generic (bring your own agent)",
         "folder": None,  # Set dynamically via --ai-commands-dir

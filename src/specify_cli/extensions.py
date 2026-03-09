@@ -682,6 +682,12 @@ class CommandRegistrar:
             "format": "markdown",
             "args": "$ARGUMENTS",
             "extension": ".md"
+        },
+        "kimi": {
+            "dir": ".kimi/commands",
+            "format": "markdown",
+            "args": "$ARGUMENTS",
+            "extension": ".md"
         }
     }
 
